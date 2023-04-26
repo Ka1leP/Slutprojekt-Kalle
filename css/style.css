@@ -1,3 +1,15 @@
+body{ 
+    background-image: url("/img/0344.png"); /*Försöker här att länka in en bankgrundsbild, detta funkar ej.*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: montserrat;
+    height: 50000px;
+}
 .navbaren{
-	color: lightgray;	/*ändrar färgen på texten till lightgray */
+	background-color: rgba(0, 0, 0, 0.5); /*försök att få lite genomsknlig header*/
+}
+.text2{
+	font-size: x-large;
 }

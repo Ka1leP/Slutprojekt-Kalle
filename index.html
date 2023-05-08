@@ -9,39 +9,59 @@
     <link href="css\bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css\style.css">
     <link rel="icon" href="img/IQ_Logo_White_Simple.png"> <!--Lägger i en logga i fliken länst upp -->
+    <!-- Länkar in google fonten Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
 
     <title>The Indie Queast</title>
   </head>
-  <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-* text2 navbaren menystor">
+  <body class="backgrundindex"><!--Gör här så att det går att ha olika bilder beroende på vilken sida det är, osäker på om detta kommer att användas-->
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-* text2 navbaren menystor fixed-top">
   <div class="container">
- <img src="img/IQ_Logo_White_Roof.png" alt="Indie Queast logo" width="50" height="50" class="d-inline-block align-text-top">
+ <img src="img/IQ_Logo_White_Roof.png" alt="Indie Queast logo" width="70" height="70" class="d-inline-block align-top">
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarsExample07">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ms-auto mb-2 mg-lg-0"> <!--Bytte här så att valen väljs på höger sida istället för vänster -->
         <li class="nav-item active">
-          <a class="nav-link" href="#">Welcome</a>
+          <a class="nav-link active" href="index.html">Welcome</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link active" href="about.html">About</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#">Currliculum</a>
+          <a class="nav-link active" href="curriculum.html">Curriculum</a>
         </li>
           <li class="nav-item">
-          <a class="nav-link" href="#">Find Us</a>
+          <a class="nav-link active" href="findus.html">Find Us</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#">Apply</a>
+          <a class="nav-link active" href="apply.html">Apply</a>
         </li>
 
       </ul>
     </div>
   </div>
 </nav>
+
+<div class="container marginner test text-center"> <!--Inte centrerat än-->
+  <div class="row justify-content-center">
+    <div class="col-md-5 box m-3">Box 1</div>
+    <div class="col-md-5 m-3"><div class="video-container"><iframe class="video embed-responsive-item" src="https://www.youtube.com/embed/u31qwQUeGuM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-5 box m-3">Box 3</div>
+    <div class="col-md-5 box m-3">Box 4</div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-5 box m-3">Box 5</div>
+    <div class="col-md-5 box m-3 ">Box 6</div>
+  </div>
+</div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

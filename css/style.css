@@ -27,30 +27,39 @@ body{
 }
 
 /*css för index*/
+.paddingindex{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .marginner{
 	margin-top: 100px;
 }
 .box{
     background-color: white;
     color: black;
-    height: 350px;
+    height: 330px;
  }
- .test{
+ .boxgenomskinlig{
+    background-color: rgba(0, 0, 0, 0.66);
+    color: black;
+    height: 330px;
+ }
+ /*.test{
  	margin-left: auto;
  	margin-right: auto;
  }
+ */
  .video-container {
-  position: relative;
-  width: 100%;
+ width: 100%;
   height: 100%;
+  object-fit: cover
 }
 
 .video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  width: inherit;
+  height: inherit;
 }
 
  /*css för about*/

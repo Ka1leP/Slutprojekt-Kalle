@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css\style.css">
     <link rel="icon" href="img/IQ_Logo_White_Simple.png"> <!--Lägger i en logga i fliken länst upp -->
     <!-- Länkar in google fonten Montserrat -->
-    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/>
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
 
@@ -20,7 +20,7 @@
 
   <nav class="navbar navbar-expand-md navbar-dark bg-* text2 navbaren menystor fixed-top">
   <div class="container">
- <img src="img/IQ_Logo_White_Roof.png" alt="Indie Queast logo" width="70" height="70" class="d-inline-block align-top">
+ <a href="index.html"><img src="img/IQ_Logo_White_Roof.png" alt="Indie Queast logo" width="70" height="70" class="d-inline-block align-top"></a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -44,9 +44,78 @@
         </li>
 
       </ul>
-    </div>
+    </div>        
   </div>
 </nav>
+<!--form-->
+<div class="container boxapply marginner">
+  <form>
+   <table class="m-auto">
+     <tr>
+      <td class="paddingaplly"><label for="personnummer">Personnummer*</label></td><!--Lägger till en "for" för att det ska vara bra för skärmläsare vilket gör sidan mer tillgänglig. Detta gör även så när man klickar på texten förflyttas man till rutan-->
+      <td class="paddingaplly"><input type="text" placeholder="ÅÅÅÅMMDD-XXXX" name="personnummer" id="personnummer" required> </td>
+    </tr>
+    <tr>
+      <td class="paddingaplly"><label for="förnamn">Förnamn*</label></td>
+      <td class="paddingaplly"><input type="text" name="förnamn" id="förnamn" required> </td>
+    </tr>
+    <tr>
+      <td class="paddingaplly"><label for="efternamn">Efternamn*</label></td>
+      <td class="paddingaplly"><input type="text" name="efternamn" id="efternamn" required> </td>
+    </tr>
+    <tr>
+      <td class="paddingaplly"><label for="co">C/O</label></td>
+      <td class="paddingaplly"><input type="text" name="co" id="co"> </td>
+    </tr>
+    <tr>
+      <td class="paddingaplly"><label for="adress">Adress*</label></td>
+      <td class="paddingaplly"><input type="text" name="adress" id="adress" required> </td>
+    </tr>
+     <tr>
+      <td class="paddingaplly"><label for="postnummer">Postnummer*</label></td>
+      <td class="paddingaplly"><input type="text" name="postnummer" id="postnummer" required> </td>
+    </tr>
+    <tr>
+      <td class="paddingaplly"><label for="ort">Ort*</label></td>
+      <td class="paddingaplly"><input type="text" name="ort" id="ort" required> </td>
+    </tr>
+    <tr>
+      <td class="paddingaplly"><label for="telefon">Telefon</label></td>
+      <td class="paddingaplly"><input type="text" name="telefon" id="telefon"> </td>
+    </tr>
+    <tr>
+      <td class="paddingaplly"><label for="epost">E-Post</label></td>
+      <td class="paddingaplly"><input type="text" name="epost" id="epost"> </td>
+    </tr>
+    <tr>
+      <td class="paddingaplly"><label for="hurkontakt">Hur vill du bli kontaktat?*</label></td>
+      <td class="paddingaplly"><select id="hurkontakt" name="hurkontakt" required>
+        <option value="telefon">Telefon</option>
+        <option value="E-post">E-post</option>
+        <option value="sms">SmS</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td class="paddingaplly"><label for="medborgarskap">Medborgarskap</label></td>
+      <td class="paddingaplly"><select id="medborgarskap" name="medborgarskap" onchange="set_show_medborgarskap_input(this.value);">
+        <option value="svensk">Svensk</option>
+        <option value="other">Annat (Ange)</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td class="paddingaplly"></td>
+      <td class="paddingaplly"><input type="text" placeholder="Välj Medborgarskap" name="medborgarskap_input" id="medborgarskap_input" value="sverige" required></td><!--vill att denna ska försvinna när sverige är bestämnt -->
+    </tr>
+   </table>
+     <div class="text-center">
+      <button class="btn btn-dark">
+          Skicka
+      </button>
+        </div>
+  </form>
+</div>
+
+<script src="js/apply.js"></script><!--Länkar in javacript vid namn apply.js-->
 
 
     <!-- Optional JavaScript; choose one of the two! -->

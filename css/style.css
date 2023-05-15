@@ -5,11 +5,27 @@ body{
     background-size: cover;
     font-family: montserrat;
 }
-.backgrundindex{
-	 background-image: url("../img/0344.png"); /*Försöker här att länka in en bankgrundsbild*/
+
+/*Olika bakgrunder beroende på vilken sida man är på*/
+.bakgrundindex{
+	 background-image: url("../img/bakgrunder/indexbakgrund.png"); 
 }
+.bakgrundabout{
+	 background-image: url("../img/bakgrunder/aboutbakgrund.png");
+}
+.bakgrundcurriculum{
+	 background-image: url("../img/bakgrunder/aboutbakgrund.png");
+}
+.bakgrundfindus{
+	 background-image: url("../img/bakgrunder/findbakgrund.png");
+}
+.bakgrundapply{
+	background-image: url("../img/bakgrunder/applybakgrund.png");
+}
+
+
 .navbaren{
-	background-color: rgba(0, 0, 0, 0.66); /*försök att få lite genomsknlig header*/
+	background-color: rgba(0, 0, 0, 0.66); /* lite genomsknlig header*/
 	border-radius: 0px 0px 50px 50px;
 		margin-right: 10%;
 	margin-left: 10%;
@@ -33,15 +49,14 @@ a:hover {
 	text-decoration: underline;/*gör så alternativet blir understryket */
 }
 
+.marginner{
+	margin-top: 100px;
+}
 /*css för index*/
 .paddingindex{
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
-}
-
-.marginner{
-	margin-top: 100px;
 }
 .box{
     background-color: white;
@@ -71,7 +86,7 @@ a:hover {
  	background-color: white;
  	padding: 	30px;
  }
- .svart{
+ .svart{ /*Gör färgen på länkarna svart*/
  	color: black;
  }
  .marginabout{
@@ -94,7 +109,7 @@ a:hover {
  .boxfind{
     background-color: white;
     color: black;
-    height: 700px;
+    height: 500px;
     padding: 20px;
  }
  .paddingcontact{
@@ -113,5 +128,6 @@ a:hover {
 
  .boxapply{
  	background-color: white;
- 	height: 800px;
+ 	height: 750px;
+ 	border-radius: 50px 50px 50px 50px;
  }

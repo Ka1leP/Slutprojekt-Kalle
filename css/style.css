@@ -1,23 +1,23 @@
 body{ 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: montserrat;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: montserrat;
 }
 
 /*Olika bakgrunder beroende på vilken sida man är på*/
 .bakgrundindex{
-	 background-image: url("../img/bakgrunder/indexbakgrund.png"); 
+	background-image: url("../img/bakgrunder/indexbakgrund.png"); 
 }
 .bakgrundabout{
-	 background-image: url("../img/bakgrunder/aboutbakgrund.png");
+	background-image: url("../img/bakgrunder/aboutbakgrund.png");
 }
 .bakgrundcurriculum{
-	 background-image: url("../img/bakgrunder/aboutbakgrund.png");
+	background-image: url("../img/bakgrunder/aboutbakgrund.png");
 }
 .bakgrundfindus{
-	 background-image: url("../img/bakgrunder/findbakgrund.png");
+	background-image: url("../img/bakgrunder/findbakgrund.png");
 }
 .bakgrundapply{
 	background-image: url("../img/bakgrunder/applybakgrund.png");
@@ -27,20 +27,20 @@ body{
 .navbaren{
 	background-color: rgba(0, 0, 0, 0.66); /* lite genomsknlig header*/
 	border-radius: 0px 0px 50px 50px;
-		margin-right: 10%;
+	margin-right: 10%;
 	margin-left: 10%;
 	font-size: x-large;
 }
 
 @media screen and (max-width: 768px){ /*Gör så att det blir en grå header under 768 px. Det betyder att när det blir en "hamburgemeny" så blir bakgrunden grå, ingen border radius och ingen margin*/ 
 	.navbaren{
-	background-color: rgba(38, 38, 38, 1.0);
-	margin-right: 0%;
-	margin-left: 0%;
-	border-radius: 0px 0px 0px 0px;
-	font-size: large;
-}
-}
+		background-color: rgba(38, 38, 38, 1.0);
+		margin-right: 0%;
+		margin-left: 0%;
+		border-radius: 0px 0px 0px 0px;
+		font-size: large;
+	}
+}s
 a {
 	text-decoration: none;
 }
@@ -49,7 +49,7 @@ a:hover {
 	text-decoration: underline;/*gör så alternativet blir understryket */
 }
 
-.marginner{
+.marginner{   /*Gör så att alla hamnar lika långt ner*/
 	margin-top: 100px;
 }
 /*css för index*/
@@ -59,75 +59,75 @@ a:hover {
 	padding-right: 20px;
 }
 .box{
-    background-color: white;
-    color: black;
-    height: 330px;
- }
- .boxgenomskinlig{
-    background-color: rgba(0, 0, 0, 0.66);
-    color: black;
-    height: 330px;
- }
- 
- .video-container {
- width: 100%;
-  height: 100%;
-  object-fit: cover
+	background-color: white;
+	color: black;
+	height: 330px;
+}
+.boxgenomskinlig{
+	background-color: rgba(0, 0, 0, 0.66);
+	color: black;
+	height: 330px;
+}
+
+.video-container {
+	width: 100%;
+	height: 100%;
+	object-fit: cover
 }
 
 .video {
-  width: inherit;
-  height: inherit;
+	width: inherit;
+	height: inherit;
 }
 
- /*css för about*/
+/*css för about*/
 
- .aboutcontainer{
- 	background-color: white;
- 	padding: 	30px;
- }
- .svart{ /*Gör färgen på länkarna svart*/
- 	color: black;
- }
- .marginabout{
- 	margin-top: 30px;
- 	margin-bottom: 15px;
- }
+.aboutcontainer{
+	background-color: white;
+	padding: 	30px;
+}
+.svart{ /*Gör färgen på länkarna svart*/
+	color: black;
+}
+.marginabout{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
 
- /*css för curriculum*/
- .curriculumcontainer{
- 	background-color: white;
- 	padding: 30px;
- 	margin-bottom: 30px;
- }
+/*css för curriculum*/
+.curriculumcontainer{
+	background-color: white;
+	padding: 30px;
+	margin-bottom: 30px;
+}
 
- /*css för find-us*/
+/*css för find-us*/
 .paddingfind{
 	padding-top: 45px;
 	padding-bottom: 10px;
 }
- .boxfind{
-    background-color: white;
-    color: black;
-    height: 500px;
-    padding: 20px;
- }
- .paddingcontact{
- 	padding-top: 20px;
- 	padding-bottom: 5px;
- }
- .paddinglogo{
- 	padding-right: 15px;
- }
+.boxfind{
+	background-color: white;
+	color: black;
+	height: 500px;
+	padding: 20px;
+}
+.paddingcontact{
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.paddinglogo{
+	padding-right: 15px;
+}
 
 
- /*css för apply*/
- .paddingaplly{
- 	padding: 15px;
- }
+/*css för apply*/
+.paddingaplly{
+	padding: 15px;
+}
 
- .boxapply{
- 	background-color: white;
- 	height: 750px;
- 	border-radius: 50px 50px 50px 50px;
- }
+.boxapply{
+	background-color: white;
+	height: 750px;
+	width: 100%;
+}

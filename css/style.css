@@ -40,7 +40,7 @@ body{
 		border-radius: 0px 0px 0px 0px;
 		font-size: large;
 	}
-}s
+}
 a {
 	text-decoration: none;
 }
@@ -123,11 +123,11 @@ a:hover {
 
 /*css för apply*/
 .paddingaplly{
-	padding: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .boxapply{
 	background-color: white;
 	height: 750px;
-	width: 100%;
 }
